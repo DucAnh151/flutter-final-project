@@ -1,0 +1,70 @@
+name: flashcard_app
+description: A flashcard learning app with Spaced Repetition
+version: 2.0.0+1
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Flutter official packages
+  cupertino_icons: ^1.0.6
+  
+  # State management & storage
+  shared_preferences: ^2.2.2
+  
+  # CSV handling
+  csv: ^5.0.3
+  
+  # UI components
+  percent_indicator: ^4.2.3
+  
+  # Internationalization
+  intl: ^0.19.0
+  
+  # File picker
+  file_picker: ^6.1.1
+  
+  # Animations - THÊM MỚI
+  flutter_animate: ^4.1.1
+  
+  # Optional: Add for better UI
+  shimmer: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Assets (optional - add if you have images)
+  # assets:
+  #   - assets/images/
+  
+  # Fonts (optional - add if you have custom fonts)
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+  #       - asset: fonts/CustomFont-Bold.ttf
+  #         weight: 700
+
+# For iOS (optional)
+# ios:
+#   deployment-target: '11.0'
+
+# For Android (optional)
+# android:
+#   minSdkVersion: 21
+#   targetSdkVersion: 34
+#   compileSdkVersion: 34
+
+# For web (optional)
+# web:
+#   index.html: {}
+#   renderer: html
