@@ -1,4 +1,3 @@
-
 # Bài tập lớn - Phát triển ứng dụng với Flutter
 
 ## Thông tin sinh viên
