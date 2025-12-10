@@ -42,29 +42,3 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   
-  # Assets (optional - add if you have images)
-  # assets:
-  #   - assets/images/
-  
-  # Fonts (optional - add if you have custom fonts)
-  # fonts:
-  #   - family: CustomFont
-  #     fonts:
-  #       - asset: fonts/CustomFont-Regular.ttf
-  #       - asset: fonts/CustomFont-Bold.ttf
-  #         weight: 700
-
-# For iOS (optional)
-# ios:
-#   deployment-target: '11.0'
-
-# For Android (optional)
-# android:
-#   minSdkVersion: 21
-#   targetSdkVersion: 34
-#   compileSdkVersion: 34
-
-# For web (optional)
-# web:
-#   index.html: {}
-#   renderer: html
